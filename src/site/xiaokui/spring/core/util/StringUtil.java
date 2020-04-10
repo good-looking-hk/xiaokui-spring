@@ -1,9 +1,7 @@
-package site.xiaokui.spring.core;
+package site.xiaokui.spring.core.util;
 
 import java.io.File;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author HK

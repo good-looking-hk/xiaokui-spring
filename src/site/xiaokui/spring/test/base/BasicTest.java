@@ -1,6 +1,6 @@
 package site.xiaokui.spring.test.base;
 
-import site.xiaokui.spring.core.LogUtil;
+import site.xiaokui.spring.core.util.LogUtil;
 
 import java.lang.reflect.Method;
 import java.util.*;

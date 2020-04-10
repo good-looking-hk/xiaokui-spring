@@ -1,4 +1,4 @@
-package site.xiaokui.spring.core;
+package site.xiaokui.spring.core.util;
 
 /**
  * @author HK

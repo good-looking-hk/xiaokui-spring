@@ -1,10 +1,9 @@
 package site.xiaokui.spring.web;
 
-import site.xiaokui.spring.core.PatternMatchUtils;
+import site.xiaokui.spring.core.util.PatternMatchUtils;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.regex.Pattern;
 
 /**
  * @author HK
@@ -28,7 +27,6 @@ public class MappingHandler {
     public boolean matchUrl(String url) {
         for (String p : parentUrl) {
             for (String s : sonUrl) {
-                System.out.println(p + s + "-" + url + PatternMatchUtils.simpleMatch(p  + s, url));
                 return PatternMatchUtils.simpleMatch(p  + s, url);
             }
         }

@@ -1,5 +1,8 @@
 package site.xiaokui.spring.web.server;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 /**
  * 简单实现
  * @author HK
@@ -22,5 +25,15 @@ public class HttpResponse {
 
     public void setMsg(String msg) {
         this.msg = msg;
+    }
+
+    public static void main(String[] args) {
+        ExecutorService executor = Executors.newFixedThreadPool(10);
+        executor.execute(new Runnable() {
+            @Override
+            public void run() {
+                // 做点什么
+            }
+        });
     }
 }

@@ -1,4 +1,4 @@
-package site.xiaokui.spring.core;
+package site.xiaokui.spring.core.util;
 
 /**
  * Utility methods for simple pattern matching, in particular for

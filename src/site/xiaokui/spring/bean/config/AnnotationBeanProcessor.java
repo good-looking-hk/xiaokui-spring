@@ -2,11 +2,11 @@ package site.xiaokui.spring.bean.config;
 
 import site.xiaokui.spring.aop.IProxy;
 import site.xiaokui.spring.aop.SimpleJdkProxy;
-import site.xiaokui.spring.bean.AbstractBeanFactory;
+import site.xiaokui.spring.bean.factory.AbstractBeanFactory;
 import site.xiaokui.spring.bean.annotation.Autowired;
-import site.xiaokui.spring.core.Assert;
-import site.xiaokui.spring.core.LogUtil;
-import site.xiaokui.spring.core.StringUtil;
+import site.xiaokui.spring.core.util.Assert;
+import site.xiaokui.spring.core.util.LogUtil;
+import site.xiaokui.spring.core.util.StringUtil;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.*;

@@ -1,6 +1,6 @@
 package site.xiaokui.spring.test.util;
 
-import site.xiaokui.spring.core.Assert;
+import site.xiaokui.spring.core.util.Assert;
 import site.xiaokui.spring.test.base.BasicTest;
 
 import java.util.regex.Pattern;

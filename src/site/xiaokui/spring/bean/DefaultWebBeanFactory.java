@@ -1,5 +1,8 @@
 package site.xiaokui.spring.bean;
 
+import site.xiaokui.spring.bean.annotation.Bean;
+import site.xiaokui.spring.bean.annotation.Configuration;
+import site.xiaokui.spring.bean.factory.AbstractBeanFactory;
 import site.xiaokui.spring.web.MappingHandler;
 import site.xiaokui.spring.web.WebApplicationContext;
 import site.xiaokui.spring.web.annotation.*;
@@ -79,9 +82,6 @@ public class DefaultWebBeanFactory extends AbstractBeanFactory {
                 RequestMapping requestMapping = method.getAnnotation(RequestMapping.class);
                 String[] sonUrl = requestMapping.value();
                 mappingHandlerList.add(new MappingHandler(parentUrl, sonUrl, obj, method));
-                System.out.println(cls);
-                System.out.println(parentUrl.length);
-                System.out.println(sonUrl.length);
                 for (String p : parentUrl) {
                     for (String s : sonUrl) {
                         log.info("路径" + p + s + "匹配到方法" + method);

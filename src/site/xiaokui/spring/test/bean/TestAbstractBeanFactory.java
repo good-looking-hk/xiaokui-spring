@@ -1,10 +1,10 @@
 package site.xiaokui.spring.test.bean;
 
 import site.xiaokui.spring.aop.SimpleJdkProxy;
-import site.xiaokui.spring.bean.AbstractBeanFactory;
-import site.xiaokui.spring.core.Assert;
-import site.xiaokui.spring.core.LogType;
-import site.xiaokui.spring.core.LogUtil;
+import site.xiaokui.spring.bean.factory.AbstractBeanFactory;
+import site.xiaokui.spring.core.util.Assert;
+import site.xiaokui.spring.core.util.LogType;
+import site.xiaokui.spring.core.util.LogUtil;
 import site.xiaokui.spring.test.base.BasicTest;
 
 

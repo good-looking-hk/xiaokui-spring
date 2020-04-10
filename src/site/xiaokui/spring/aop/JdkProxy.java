@@ -1,6 +1,6 @@
 package site.xiaokui.spring.aop;
 
-import site.xiaokui.spring.core.Assert;
+import site.xiaokui.spring.core.util.Assert;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

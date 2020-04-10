@@ -1,4 +1,4 @@
-package site.xiaokui.spring.web.annotation;
+package site.xiaokui.spring.bean.annotation;
 
 /**
  * @author HK

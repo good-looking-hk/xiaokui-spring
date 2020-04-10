@@ -1,6 +1,6 @@
 package site.xiaokui.spring.aop;
 
-import site.xiaokui.spring.core.LogUtil;
+import site.xiaokui.spring.core.util.LogUtil;
 
 /**
  * @author HK
