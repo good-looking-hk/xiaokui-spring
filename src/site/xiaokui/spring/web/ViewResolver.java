@@ -10,6 +10,6 @@ import java.util.Locale;
  */
 public class ViewResolver {
 
-    View resolveViewName(String viewName, Locale locale) throws Exception;
+//    View resolveViewName(String viewName, Locale locale) throws Exception;
 
 }

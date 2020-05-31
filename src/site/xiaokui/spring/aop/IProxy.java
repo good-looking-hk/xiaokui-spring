@@ -11,4 +11,8 @@ public interface IProxy {
     Object getProxy();
 
     IProxy newProxy();
+
+    default void preInvoke(){};
+
+    default void postInvoke(){};
 }

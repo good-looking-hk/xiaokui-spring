@@ -8,7 +8,7 @@ import java.util.Map;
  */
 public class View {
 
-    void render(Map<String, ?> model, HttpServletRequest request, HttpServletResponse response)
-            throws Exception;
+//    void render(Map<String, ?> model, HttpServletRequest request, HttpServletResponse response)
+//            throws Exception;
 
 }

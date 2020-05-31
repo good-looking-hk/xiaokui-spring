@@ -36,10 +36,6 @@ public abstract class JdkProxy implements InvocationHandler, IProxy {
         return this;
     }
 
-    public abstract void preRequest();
-
-    public abstract void postRequest();
-
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         // 忽略Object类方法调用
@@ -48,10 +44,10 @@ public abstract class JdkProxy implements InvocationHandler, IProxy {
                 return method.invoke(object, args);
             }
         }
-        preRequest();
+        preInvoke();
         method.setAccessible(true);
         Object result = method.invoke(object, args);
-        postRequest();
+        postInvoke();
         return result;
     }
 
